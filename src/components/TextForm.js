@@ -40,6 +40,7 @@ export default function TextForm(props) {
       <button className="btn btn-primary mx-2" onClick={handleUpClick}>Convert To Uppercase</button>
       <button className="btn btn-primary mx-2" onClick={handleLoClick}>Convert To Lowercase</button>
       <button className="btn btn-primary mx-2" onClick={handleClearClick}>Clear Text</button>
+      {/* <button className="btn btn-primary mx-2" onClick={handleClearClick}>Clear Text</button> */}
     </div>
     <div className="container my-2" style={{color:props.mode==='dark'?'white':'black'}}>
     <b><h1>your text summary</h1>
